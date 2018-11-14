@@ -6,3 +6,9 @@ node_modules/
 package-lock.json
 *.swp
 settings.json
+
+
+knex('pizzas').insert({name: 'BoringAF'
+crust: 'yes',
+cheese: 'true',
+size: 'medium'})
